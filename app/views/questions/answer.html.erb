@@ -1,0 +1,18 @@
+<h1>STUPID COACHING</h1>
+<p>THIS IS YOUR CONVERSATION WITH YOUR COACH</p>
+<div class="pathlink">
+  <%= link_to "ask a question", ask_path %>
+</div>
+
+<br>
+<div id="question">
+  <h3><strong><%= params[:question] %></strong></h3>
+  <p>-You</p>
+</div>
+
+<br>
+
+<div id="answer">
+  <h3><strong><%= @answer %></strong></h3>
+  <p>-Your Coach</p>
+</div>

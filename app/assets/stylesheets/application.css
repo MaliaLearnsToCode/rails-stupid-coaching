@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+form {
+  padding-left: 20px;
+  font-family: Lucida Sans;
+}
+
+h1 {
+  padding-left: 20px;
+  font-family: Lucida Sans;
+  color: rgb(62, 61, 61);
+  box-shadow: 2px;
+}
+
+p {
+  color: rgb(62, 61, 61);
+  padding-left: 20px;
+  font-family: Lucida Sans;
+}
+
+.pathlink {
+  inset-block: block;
+  padding-left: 20px;
+}
+
+#question {
+  background-color: rgb(227, 221, 221);
+  padding-left: 20px;
+  color: darkgreen;
+}
+
+#answer {
+  background-color: rgb(227, 221, 221);
+  padding-left: 20px;
+  color: darkgreen;
+}
